@@ -75,10 +75,10 @@ public class Secuencia {
     private void exercicio4() {
         System.out.println("Execución Exercicio 4");
 
-        /*List<Exercicio> videoxogos = conexionService.buscarMongoTodos();
+        List<Exercicio> videoxogos = conexionService.buscarMongoTodos();
         for(Exercicio vid:videoxogos){
             System.out.println(vid);
-        }*/
+        }
 
         System.out.println("FIN Exercicio 4");
     }
@@ -94,13 +94,13 @@ public class Secuencia {
     private void exercicio6() {
         System.out.println("Execución Exercicio 6");
 
-        Exercicio ex6 = new Exercicio();
-        List<Videoxogo> list;
+        //Exercicio ex6 = new Exercicio();
+        //List<Videoxogo> list;
 
-        list = conexionService.buscarVideoxogoPublicacionAntes2000();
-        ex6.setVideoxogos(list);
-        ex6.setExercicio("Exercicio 6");
-        conexionService.crearExercicio(ex6);
+        //list = conexionService.buscarVideoxogoPublicacionAntes2000();
+        //ex6.setVideoxogos(list);
+        //ex6.setExercicio("Exercicio 6");
+        //conexionService.crearExercicio(ex6);
 
         System.out.println("FIN Exercicio 6");
     }
@@ -108,14 +108,14 @@ public class Secuencia {
     private void exercicio7() {
         System.out.println("Execución Exercicio 7");
 
-        List<Exercicio> exercicios = conexionService.buscarMongoTodos();
+        /*List<Exercicio> exercicios = conexionService.buscarMongoTodos();
 
         for(Exercicio ex: exercicios){
             if(ex.getExercicio().equals("Exercicio 6")){
                 ex.setExercicio("Exercicio 7");
                 conexionService.crearExercicio(ex);
             }
-        }
+        }*/
 
         System.out.println("FIN Exercicio 7");
     }

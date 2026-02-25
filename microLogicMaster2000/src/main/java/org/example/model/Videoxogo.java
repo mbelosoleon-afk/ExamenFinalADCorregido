@@ -83,4 +83,18 @@ public class Videoxogo {
     public void setInimigo(Inimigo inimigo) {
         this.inimigo = inimigo;
     }
+
+    @Override
+    public String toString() {
+        return "Videoxogo{" +
+                "id=" + id +
+                ", titulo='" + titulo + '\'' +
+                ", dataLanzamento=" + dataLanzamento +
+                ", desenvolvedor='" + desenvolvedor + '\'' +
+                ", plataforma='" + plataforma + '\'' +
+                ", categoria='" + categoria + '\'' +
+                ", protagonista=" + protagonista +
+                ", inimigo=" + inimigo +
+                '}';
+    }
 }

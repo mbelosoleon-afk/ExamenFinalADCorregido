@@ -53,4 +53,16 @@ public class Protagonista {
     public void setPoder(Poder poder) {
         this.poder = poder;
     }
+
+
+    @Override
+    public String toString() {
+        return "Protagonista{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", historia='" + historia + '\'' +
+                ", poder=" + poder +
+                '}';
+    }
 }

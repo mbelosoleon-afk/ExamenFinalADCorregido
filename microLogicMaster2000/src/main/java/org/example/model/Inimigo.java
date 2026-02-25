@@ -43,4 +43,14 @@ public class Inimigo {
     public void setNivel(int nivel) {
         this.nivel = nivel;
     }
+
+    @Override
+    public String toString() {
+        return "Inimigo{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", poder='" + poder + '\'' +
+                ", nivel=" + nivel +
+                '}';
+    }
 }

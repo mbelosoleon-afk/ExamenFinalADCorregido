@@ -33,4 +33,13 @@ public class Exercicio {
     public void setVideoxogos(List<Videoxogo> videoxogos) {
         this.videoxogos = videoxogos;
     }
+
+    @Override
+    public String toString() {
+        return "Exercicio{" +
+                "id=" + id +
+                ", exercicio='" + exercicio + '\'' +
+                ", videoxogos=" + videoxogos +
+                '}';
+    }
 }

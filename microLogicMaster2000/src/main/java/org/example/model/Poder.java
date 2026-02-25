@@ -43,4 +43,14 @@ public class Poder {
     public void setNivel(int nivel) {
         this.nivel = nivel;
     }
+
+    @Override
+    public String toString() {
+        return "Poder{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", descripcion='" + descripcion + '\'' +
+                ", nivel=" + nivel +
+                '}';
+    }
 }
